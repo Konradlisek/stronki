@@ -1,0 +1,65 @@
+@import 'colors';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #444;
+}
+
+nav {
+    text-transform: uppercase;
+
+    a,
+    i {
+        color: $white;
+    }
+
+    a:hover {
+        color: $blue-color;
+    }
+
+    .fa-bars {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+    }
+
+    .active {
+        color: $blue-color;
+    }
+}
+header{color: $white;
+    h1{
+        text-transform: uppercase;
+    }
+
+    .hero-img{position: relative;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+       height: 100vh; 
+       background-image: url(../img/playstation-g06ca65584_640.jpg);
+    }
+    .hero-shadow{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .8);
+    }
+    .hero-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}

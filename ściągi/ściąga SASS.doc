@@ -1,0 +1,27 @@
+Œci¹ga SASS
+Zmienne w SASS tworzymy za pomoc¹ znaku $ i mo¿emy do nich przypisaæ co tylko chcemy.
+
+Przyk³ad:
+$main-color: #fff;
+$big-text: 33rem;
+
+Nie korzystamy z @import (bardzo czêsto mo¿emy zobaczyæ go w starszym kodzie). U¿ywamy @use.
+
+Na pocz¹tku nazwy importowanego pliku zawsze dajemy _.
+Przyk³ad: _reset.scss.
+
+Import mo¿emy dowolnie nazwaæ lub mo¿emy skorzystaæ z *.
+Przyk³ad:
+@use './colors' as c
+@use './colors' as *
+
+Jeœli korzystamy z nazwanego importu, do zmiennych odwo³ujemy siê poprzez nazwa_importu.nazwa_zmiennej.
+Przyk³ad: color: c.$main-color
+
+Jeœli kod siê nie kompiluje lub wystêpuj¹ jakieœ problemy, zawsze sprawdŸ:
+
+czy w VS Code nie ma ¿adnych podkreœleñ,
+
+co mówi zak³adka OUTPUT,
+
+jak kompiluje siê kod do pliku .css.

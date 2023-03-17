@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+.nav {
+  height: 50px;
+  background-color: #333;
+  text-align: center;
+  line-height: 50px;
+}
+.nav-item {
+  display: inline-block;
+}
+.nav-item a {
+  padding: 0 50px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  transition: color 0.3s 0.15s;
+}
+.nav-item a:hover {
+  color: royalblue;
+}
+.header-img {
+  position: relative;
+  height: 300px;
+  background-image: url(../img/planets-ge577368ca_1920.jpg);
+  background-size: cover;
+}
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 2;
+}
+.header-text h1 {
+  margin-bottom: 10px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.header-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 3, 27, 0.4);
+}
+/* main */
+
+main {
+  margin: 50px auto;
+  width: 1200px;
+}
+main h2 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.about-us-box {
+  margin: 50px auto;
+  position: relative;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+
+.top {
+  background-image: url(../img/coffee-g4751f4654_1920.jpg);
+}
+.middle {
+  background-image: url(../img/office-gd0fa5585a_1920.jpg);
+}
+.bottom {
+  background-image: url(../img/iphone-g8eb252d94_1920.jpg);
+}
+.about-us-text {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 20px 40px;
+}
+.about-us-text h3 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.about-us-bg {
+  position: absolute;
+  bottom: 0;
+  height: 45%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* footer */
+
+footer {
+  height: 80px;
+  line-height: 80px;
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+  font-size: 20px;
+}
+.icon-box {
+  margin-left: 30px;
+}
+.icon-box a {
+  margin: 0 5px;
+  color: #ddd;
+  font-size: 30px;
+  transition: color 0.3s;
+}
+.icon-box a:hover {
+  color: royalblue;
+}
+.services { width: 200px;
+  margin: 0 auto;
+  margin: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+table {
+  width: 200px;
+  margin: 0 auto;
+  top: 20px;
+  border-spacing: 0px;
+}
+table,
+thead,
+td,
+th { ele
+  left: 50%;
+  border: 1px solid black;
+}
+th,
+tr,
+td {
+  padding: 5px 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: background-color linear 1s;
+  cursor: pointer;
+}
+th{
+  background-color: #333;
+  color: #ddd;
+  text-transform: uppercase;
+  transition: background-color linear 1.2s , color linear 1.2s;
+}
+td:hover{
+  background-color: #333;
+  color: #ddd;
+}
+.contacts{
+  text-transform: uppercase;
+  width: 350px;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
+cursor: pointer;
+}
+div p a i{  margin: 0 5px;
+  color: #ddd;
+  font-size: 30px;
+  transition: color 0.3s;
+  ;}
+  div p a i:hover{
+    color: royalblue;
+  }
